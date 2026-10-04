@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+}
+
+.box {
+  background-color: #dceafa;
+  border: 1px solid #aac5e3;
+  border-radius: 8px;
+  padding: 40px;
+  text-align: center;
+}
+
+.part1 {
+  padding: 20px;
+}
+
+.part1 section {
+  margin-bottom: 40px;
+}
+
+.part1 h1 {
+  font-size: 26px;
+}
+
+.part1 h2 {
+  font-size: 22px;
+}
+
+.part1 p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.part3 {
+  font-size: 16px;
+}
+
+.part3 main {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.part3 h1 {
+  font-size: 28px;
+}
+
+.part3 h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.intro {
+  display: none;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.card {
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.about {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  overflow-wrap: anywhere;
+}
+
+.part3 footer {
+  background-color: #212529;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.part3 footer p {
+  margin: 0;
+}
+
+@media (min-width: 768px) {
+  .part1 h1 {
+    font-size: 32px;
+  }
+
+  .part1 h2 {
+    font-size: 26px;
+  }
+
+  .part1 p {
+    font-size: 18px;
+  }
+
+  .boxes {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .part3 {
+    font-size: 17px;
+  }
+
+  .part3 h1 {
+    font-size: 34px;
+  }
+
+  .part3 h2 {
+    font-size: 26px;
+  }
+
+  .part3 main {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+
+  .intro {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .part1 h1 {
+    font-size: 40px;
+  }
+
+  .part1 h2 {
+    font-size: 30px;
+  }
+
+  .part1 p {
+    font-size: 20px;
+  }
+
+  .boxes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .part3 {
+    font-size: 18px;
+  }
+
+  .part3 h1 {
+    font-size: 40px;
+  }
+
+  .part3 h2 {
+    font-size: 28px;
+  }
+
+  .part3 main {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+}
