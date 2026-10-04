@@ -20,7 +20,7 @@ I used CSS Grid to arrange three boxes:
  
 This part does not use Bootstrap.
 
-![Task 2](screenshots/task1.png)
+![Task 2](task1.png)
 
 ## Part 2 — Bootstrap
 
@@ -29,14 +29,14 @@ This part does not use Bootstrap.
 I made three columns using Bootstrap. I used `col-12`, `col-md-6`
 and `col-lg-4` to change their layout for different screen sizes.
 
-![Task 2](screenshots/task2.png)
+![Task 2](task2.png)
 
 ### Task 3 — Navigation Bar
 
 I added a navigation bar with the website name on the left and links on the right. The links open the other pages. On smaller 
 screens, a menu button appears.
 
-![Task 3](screenshots/task3.png)
+![Task 3](task3.png)
 
 ## Part 3 — Portfolio
 
@@ -47,7 +47,7 @@ I used Bootstrap Grid to place the projects on the left and the sidebar on the r
 the projects.
 I also used media queries to change text sizes and spacing. The introduction is hidden on mobile.
 
-![Task 4](screenshots/task4.png)
+![Task 4](task4.png)
 
 ## Work Process
 
