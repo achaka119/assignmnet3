@@ -126,10 +126,6 @@ body {
     padding-top: 30px;
     padding-bottom: 40px;
   }
-
-  .intro {
-    display: block;
-  }
 }
 
 @media (min-width: 992px) {
